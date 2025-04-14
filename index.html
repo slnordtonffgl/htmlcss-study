@@ -4,76 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <style>
-        /* ГЛАВНЫЕ СЕКЦИИ  */
-        
-        body {
-            margin: 0px
-        }
-        
-        header {
-            background-color: rgb(252, 206, 11);
-            color: white;
-            padding: 25px;
-        }
-        
-        main {
-            background-color: rgba(26, 214, 178, 0.81);
-            color: lightgoldenrodyellow;
-            padding: 25px;
-        }
-        
-        footer {
-            background-color: rgba(50, 168, 204, 0.78);
-            color: floralwhite;
-            padding: 25px;
-        }
-        /* ИНДИВИДУАЛЬНЫЕ СЕКЦИИ  */
-        
-        h1 {
-            margin: 0px;
-        }
-        
-        p {
-            margin: 0px;
-        }
-        img{
-            width: 500px;
-          /* height высота*/
-        }
-        a{
-        margin: auto;
-        display:block;
-        background-color: rgb(252, 206, 11);
-        max-width:200x;
-        border-radius: 5px;
-        text-decoration: none;
-        text-align: center;
-        color:black
-        }
-        a:hover{
-            background-color: gold
-        }
-        
-    </style>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/header.css">
+
 </head>
 
 <body>
-   <!--ШАПКА-->
+    <!--ШАПКА-->
     <header>
+       <div id="menu"> 
         <h1> HTML и CSS </h1>
+        <a href="task1.html" class="header-a">задача 1</a>
+        <a href="article.html" class="header-a">статья 1</a> 
+        </div>
         <hr>
     </header>
 
     <!--ОСНОВНАЯ-->
 
     <main>
-       <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/HTML-and-CSS-768x453.png">
-       
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At molestias nostrum, obcaecati animi aliquid consequatur minima, repellendus facere alias in ipsa.<br><br> Non esse ut iure voluptate, laboriosam, voluptatem ea ab.</p>
-        
-        <a href="article.html"> статья</a>
-        
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/HTML-and-CSS-768x453.png">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At molestias nostrum, obcaecati animi aliquid consequatur minima, repellendus facere alias in ipsa.
+            <br>
+            <br> Non esse ut iure voluptate, laboriosam, voluptatem ea ab.</p>
+
+        <a href="article.html" class="main-a"> статья</a>
+        <a href="task1.html" class="header-a">статья</a>
     </main>
 
     <!--ПОДВАЛ-->
